@@ -389,3 +389,76 @@ span{
     font-size: 2.4rem;
     color: #323946;
 }
+
+/* Styles for screens smaller than 768px (e.g., mobile phones) */
+@media (max-width: 767px) {
+    /* Mobile-specific styles */
+    
+    /* Rearrange home section content for mobile */
+   
+   
+    .home {
+        flex-direction: column; /* Stack content vertically */
+        text-align: center; /* Center-align text */
+        align-items: center; /* Center-align items horizontally */
+    }
+
+    .home-img img {
+        width: 90%;
+        margin-top: 2rem; /* Add margin to separate image from text */
+    }
+
+
+
+    /* Similar rearrangements for other sections can be done here */
+
+    /* Rearrange about section content for mobile */
+    .about {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about-img img {
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    /* Rearrange services section content for mobile */
+    .services-container .services-box {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 2rem 1rem; /* Adjust padding for spacing */
+    }
+
+    /* Rearrange portfolio section content for mobile */
+    .portfolio-container .portfolio-box {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 2rem 1rem; /* Adjust padding for spacing */
+    }
+
+    /* Rearrange contact section content for mobile */
+    .contact {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    
+    }
+
+   section{
+    min-height: 0vh;
+    padding: 10rem 9% 2rem;
+
+}
+
+    .contact form .input-box input,
+    .contact form textarea {
+        width: 100%; /* Full width for inputs */
+        margin: 1rem 0; /* Adjust margin for spacing */
+    }
+
+    /* Additional mobile-specific styles for other sections can be added here */
+}
